@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DeviceConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="One" Vendor="OnePlus">
+  <ADCVersion>0.1</ADCVersion>
+  <Versions>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="Name">
+          <AdditionalArgs>
+            <Argument>bacon</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/bacon/openrecovery-twrp-2.7.1.0-bacon.img" />
+      </Recoveries>
+      <PossibleActions>
+        <ActionSet>
+          <Actions>
+            <Action Type="ExecuteFastbootCommand">
+              <AdditionalInfos>
+                <string>oem unlock</string>
+              </AdditionalInfos>
+            </Action>
+          </Actions>
+          <Description>Unlock Device</Description>
+        </ActionSet>
+      </PossibleActions>
+    </DeviceVersion>
+  </Versions>
+</DeviceConfig>

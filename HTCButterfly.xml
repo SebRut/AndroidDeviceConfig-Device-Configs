@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<DeviceConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Butterfly" Vendor="HTC">
+  <ADCVersion>0.1</ADCVersion>
+  <Versions>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>dlxu</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/dlxu/openrecovery-twrp-2.7.1.0-dlxu.img" />
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-6.0.3.1-dlxu.img" />
+        <Recovery Name="CWm Touch" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-touch-6.0.3.1-dlxu.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>dlxub1</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/dlxub1/openrecovery-twrp-2.7.1.0-dlxub1.img" />
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-6.0.3.1-dlxub1.img" />
+        <Recovery Name="CWM Touch" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-touch-6.0.3.1-dlxub1.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+  </Versions>
+</DeviceConfig>

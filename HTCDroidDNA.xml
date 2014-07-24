@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<DeviceConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Droid DNA" Vendor="HTC">
+  <ADCVersion>0.1</ADCVersion>
+  <Versions>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>dlx</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-6.0.4.5-dlx.img" />
+        <Recovery Name="CWM Touch" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-touch-6.0.4.5-dlx.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+  </Versions>
+</DeviceConfig>

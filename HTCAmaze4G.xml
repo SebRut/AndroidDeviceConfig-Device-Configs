@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<DeviceConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Amaze 4G" Vendor="HTC">
+  <ADCVersion>0.1</ADCVersion>
+  <Versions>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>ruby</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/ruby/openrecovery-twrp-2.6.3.0-ruby.img" />
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-5.0.2.6-ruby.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+  </Versions>
+</DeviceConfig>

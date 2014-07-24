@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<DeviceConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EVO 3D" Vendor="HTC">
+  <ADCVersion>0.1</ADCVersion>
+  <Versions>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="Name">
+          <AdditionalArgs>
+            <Argument>htc_shooteru</Argument>
+          </AdditionalArgs>
+        </Identifier>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>shooteru</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/shooteru/openrecovery-twrp-2.7.1.0-shooteru.img" />
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-5.0.2.0-shooteru.img" />
+        <Recovery Name="CWM Touch" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-touch-5.8.0.2-shooteru.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="Name">
+          <AdditionalArgs>
+            <Argument>htc_shooter</Argument>
+          </AdditionalArgs>
+        </Identifier>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>shooter</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/shooter/openrecovery-twrp-2.7.1.0-shooter.img" />
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-5.0.2.0-shooter.img" />
+        <Recovery Name="CWM Touch" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-touch-5.8.0.2-shooter.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+  </Versions>
+</DeviceConfig>

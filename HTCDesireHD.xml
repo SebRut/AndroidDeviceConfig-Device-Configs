@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<DeviceConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Desire HD" Vendor="HTC">
+  <ADCVersion>0.1</ADCVersion>
+  <Versions>
+    <DeviceVersion>
+      <Identifiers>
+        <Identifier Type="ProductDevice">
+          <AdditionalArgs>
+            <Argument>ace</Argument>
+          </AdditionalArgs>
+        </Identifier>
+      </Identifiers>
+      <Recoveries>
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/ace/openrecovery-twrp-2.6.3.0-ace.img" />
+        <Recovery Name="CWM" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-5.0.2.0-ace.img" />
+        <Recovery Name="CWM Touch" DownloadUrl="http://download2.clockworkmod.com/recoveries/recovery-clockwork-touch-5.8.1.5-ace.img" />
+      </Recoveries>
+      <PossibleActions />
+    </DeviceVersion>
+  </Versions>
+</DeviceConfig>
