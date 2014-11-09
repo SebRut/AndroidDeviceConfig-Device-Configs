@@ -11,7 +11,7 @@
         </Identifier>
       </Identifiers>
       <Recoveries>
-        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/bacon/openrecovery-twrp-2.8.0.1-bacon.img" />
+        <Recovery Name="TWRP" DownloadUrl="http://techerrata.com/get/twrp2/bacon/openrecovery-twrp-2.8.1.0-bacon.img" Md5="b153f7fe96862ac2d455cecfcd1c8643" />
       </Recoveries>
       <PossibleActions>
         <ActionSet>
